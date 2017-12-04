@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Leaflet example project.",
+  "main": "app.js",
+  "dependencies": {
+    "leaflet": "^1.2.0"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^14.5.0"
+  },
+  "scripts": {
+    "start": "beefy app.js:bundle.js --live",
+    "bundle": "browserify app.js -o bundle.js"
+  },
+  "author": "David Vazin",
+  "license": "ISC"
+}
